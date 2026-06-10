@@ -209,7 +209,7 @@ A comprehensive collection of 15 data science and analytics experiments demonstr
 6. Generate sales performance reports
 
 **Output:**
-![Experiment 11 Output](images/sales.xlsx)
+![Experiment 11 Output](images/exp11.png)
 
 ---
 
