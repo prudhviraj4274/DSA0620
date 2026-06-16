@@ -8,12 +8,10 @@
     <AutoCreateAndUpdateDSDPhoneLayouts />
     <MarkAnimation />
     <ObjectModelEncapsulateLegacy />
-    <ObjectModelExtractV2 />
     <ObjectModelTableType />
     <SchemaViewerObjectModel />
     <SetMembershipControl />
     <SheetIdentifierTracking />
-    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
   <preferences>
@@ -25,7 +23,7 @@
       <connection class='federated'>
         <named-connections>
           <named-connection caption='Energy Consumption Analysis(21)' name='excel-direct.1orm0zl0q4csp0104995410sg1cx'>
-            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='D:/DSA0620/Energy Consumption Analysis(21).xlsx' interpretationMode='0' password='' server='' validate='no' />
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/mr_sm/OneDrive/Desktop/dsa0620/Energy Consumption Analysis(21).xlsx' interpretationMode='0' password='' server='' validate='no' />
           </named-connection>
         </named-connections>
         <relation connection='excel-direct.1orm0zl0q4csp0104995410sg1cx' name='Sheet1' table='[Sheet1$]' type='table'>
@@ -62,7 +60,7 @@
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
+            <collation flag='1' name='LEN_RIN_S2' />
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
@@ -78,7 +76,7 @@
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
+            <collation flag='1' name='LEN_RIN_S2' />
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
@@ -94,7 +92,7 @@
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
-            <collation flag='1' name='LEN_RUS_S2' />
+            <collation flag='1' name='LEN_RIN_S2' />
             <attributes>
               <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
             </attributes>
@@ -136,86 +134,6 @@
       <column caption='Renewable Usage' datatype='integer' name='[Renewable_Usage]' role='measure' type='quantitative' />
       <column caption='Units Consumed' datatype='integer' name='[Units_Consumed]' role='measure' type='quantitative' />
       <column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C310E5EACD9E4761A13FB64E9138DA49]' role='measure' type='quantitative' />
-      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
-        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/Admin/AppData/Local/Temp/TableauTemp/#TableauTemp_1w22jaf1q2y5f3134d2aa1ytzmbn.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='06/15/2026 07:15:31 AM' username='tableau_internal_user'>
-          <relation name='Extract' table='[Extract].[Extract]' type='table' />
-          <metadata-records>
-            <metadata-record class='column'>
-              <remote-name>Sector</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Sector]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Sector</remote-alias>
-              <ordinal>0</ordinal>
-              <family>Sheet1</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_C310E5EACD9E4761A13FB64E9138DA49]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Region</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Region]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Region</remote-alias>
-              <ordinal>1</ordinal>
-              <family>Sheet1</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>4</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_C310E5EACD9E4761A13FB64E9138DA49]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Month</remote-name>
-              <remote-type>129</remote-type>
-              <local-name>[Month]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Month</remote-alias>
-              <ordinal>2</ordinal>
-              <family>Sheet1</family>
-              <local-type>string</local-type>
-              <aggregation>Count</aggregation>
-              <approx-count>3</approx-count>
-              <contains-null>true</contains-null>
-              <collation flag='1' name='LEN_RUS_S2' />
-              <object-id>[Sheet1_C310E5EACD9E4761A13FB64E9138DA49]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Units_Consumed</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Units_Consumed]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Units_Consumed</remote-alias>
-              <ordinal>3</ordinal>
-              <family>Sheet1</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sheet1_C310E5EACD9E4761A13FB64E9138DA49]</object-id>
-            </metadata-record>
-            <metadata-record class='column'>
-              <remote-name>Renewable_Usage</remote-name>
-              <remote-type>20</remote-type>
-              <local-name>[Renewable_Usage]</local-name>
-              <parent-name>[Extract]</parent-name>
-              <remote-alias>Renewable_Usage</remote-alias>
-              <ordinal>4</ordinal>
-              <family>Sheet1</family>
-              <local-type>integer</local-type>
-              <aggregation>Sum</aggregation>
-              <approx-count>6</approx-count>
-              <contains-null>true</contains-null>
-              <object-id>[Sheet1_C310E5EACD9E4761A13FB64E9138DA49]</object-id>
-            </metadata-record>
-          </metadata-records>
-        </connection>
-      </extract>
       <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
       <semantic-values>
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
@@ -366,8 +284,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='750' minheight='750' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='98122' id='11' param='vert' type-v2='layout-flow' w='97538' x='1231' y='939'>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98122' id='13' param='vert' type-v2='layout-flow' w='97538' x='1231' y='939'>
                 <zone fixed-size='280' h='49061' id='3' is-fixed='true' name='Sheet 1' w='72923' x='1231' y='939'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
