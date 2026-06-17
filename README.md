@@ -1,25 +1,3 @@
- Table of Contents
-
-1. [Experiment 1: Budget vs Sales Analysis](#experiment-1-budget-vs-sales-analysis)
-2. [Experiment 2: Customer Demographics Analysis](#experiment-2-customer-demographics-analysis)
-3. [Experiment 3: Product Sales Analysis](#experiment-3-product-sales-analysis)
-4. [Experiment 4: Product Inventory Analysis](#experiment-4-product-inventory-analysis)
-5. [Experiment 5: Geographic Data Analysis](#experiment-5-geographic-data-analysis)
-6. [Experiment 6: Product Category Analysis](#experiment-6-product-category-analysis)
-7. [Experiment 7: Website Traffic Analysis](#experiment-7-website-traffic-analysis)
-8. [Experiment 8: Employee Performance Analysis](#experiment-8-employee-performance-analysis)
-9. [Experiment 9: Online Learning Activity Analysis](#experiment-9-online-learning-activity-analysis)
-10. [Experiment 10: Survey Responses Analysis](#experiment-10-survey-responses-analysis)
-11. [Experiment 11: Sales Performance Analysis](#experiment-11-sales-performance-analysis)
-12. [Experiment 12: Monthly Product Sales Analysis](#experiment-12-monthly-product-sales-analysis)
-13. [Experiment 13: Geographic Sales Distribution](#experiment-13-geographic-sales-distribution)
-14. [Experiment 14: Survey Results Analysis](#experiment-14-survey-results-analysis)
-15. [Experiment 15: Customer Feedback Analysis](#experiment-15-customer-feedback-analysis)
-
----
-
-##  Detailed Experiments
-
 ### Experiment 1: Budget vs Sales Analysis
 
 **Aim:** To analyze the relationship between marketing budget allocation and actual sales generated, identifying the correlation and ROI.
