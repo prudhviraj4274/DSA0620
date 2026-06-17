@@ -1,10 +1,4 @@
-# Data Science & Analytics Experiments
-
-A comprehensive collection of 15 data science and analytics experiments demonstrating various techniques and methodologies for data analysis, visualization, and insights extraction using Tableau, R, and CSV/Excel datasets.
-
----
-
-## 📋 Table of Contents
+ Table of Contents
 
 1. [Experiment 1: Budget vs Sales Analysis](#experiment-1-budget-vs-sales-analysis)
 2. [Experiment 2: Customer Demographics Analysis](#experiment-2-customer-demographics-analysis)
@@ -24,7 +18,7 @@ A comprehensive collection of 15 data science and analytics experiments demonstr
 
 ---
 
-## 🔬 Detailed Experiments
+##  Detailed Experiments
 
 ### Experiment 1: Budget vs Sales Analysis
 
@@ -360,103 +354,6 @@ A comprehensive collection of 15 data science and analytics experiments demonstr
 ![Experiment 20 Output](images/exp20.png)
 
 ---
-
-## 📊 Tools & Technologies Used
-
-- **Tableau** - Data visualization and dashboarding
-- **R** - Statistical analysis and advanced computations
-- **Excel/CSV** - Data preparation and storage
-- **Data Analysis Tools** - Multiple analytical techniques
-
-## 📁 Project Structure
-
-```
-dsa0620/
-├── README.md                          # This file
-├── images/                            # Output visualizations
-│   ├── exp1.png through exp15.png
-│   ├── exp3.png - exp10.png
-│   └── exp12.png - exp15.png
-├── Datasets/
-│   ├── Budget vs Sales.xlsx
-│   ├── Customer Demographics.xlsx
-│   ├── Product Sales Analysis.xlsx
-│   ├── Employee Performance datasets
-│   ├── Website Traffic datasets
-│   ├── Survey datasets
-│   └── [Other data files]
-├── Tableau Workbooks/
-│   ├── set 1 through set 15.twb
-│   └── set12.twb, set14.twb
-└── R Scripts/
-    └── Online_Learning_Activity.R
-```
-
-## 🎯 Key Findings Summary
-
-| Experiment | Key Metric | Finding |
-|-----------|-----------|---------|
-| 1. Budget vs Sales | ROI | Strong correlation between budget allocation and sales |
-| 2. Customer Demographics | Segment Performance | Identified 5 major customer segments with varying purchase patterns |
-| 3. Product Sales | Top Performer | 20% of products generate 80% of revenue |
-| 4. Inventory | Stock Status | Optimal inventory levels achieved for 85% of products |
-| 5. Geographic | Top Region | Region A shows highest growth potential |
-| 6. Product Category | Market Share | Category B has largest market penetration |
-| 7. Website Traffic | Conversion | Organic traffic shows highest conversion rate |
-| 8. Employee Performance | Top Performer | Top 10% of employees achieve 40% of productivity targets |
-| 9. Online Learning | Engagement | 75% course completion rate achieved |
-| 10. Survey Responses | Satisfaction | Average satisfaction score: 4.2/5.0 |
-| 11. Sales Performance | Growth | QoQ growth rate: 12.5% |
-| 12. Monthly Sales | Seasonality | Strong seasonality detected Q4 peak |
-| 13. Geographic Distribution | Penetration | 68% market penetration in urban areas |
-| 14. Survey Results | Consensus | 80% agreement on key survey question |
-| 15. Customer Feedback | Sentiment | 72% positive feedback received |
-
----
-
-## 📈 Methodology
-
-All experiments follow a standardized approach:
-
-1. **Data Collection** - Gather raw data from various sources
-2. **Data Cleaning** - Remove duplicates, handle missing values, standardize formats
-3. **Exploratory Data Analysis** - Understand data distributions and relationships
-4. **Analysis** - Apply statistical and analytical techniques
-5. **Visualization** - Create clear, insightful visualizations
-6. **Interpretation** - Generate actionable insights and recommendations
-
----
-
-## 🚀 How to Use This Repository
-
-1. **View Visualizations** - Check the `images/` folder for all experiment outputs
-2. **Review Datasets** - Examine the data files used for each experiment
-3. **Explore Tableau Workbooks** - Open `.twb` files in Tableau to interact with dashboards
-4. **Run R Analysis** - Execute the R scripts for statistical analysis
-
----
-
-## 📝 Notes
-
-- All datasets have been cleaned and preprocessed for analysis
-- Visualizations are optimized for clarity and insight extraction
-- Results are based on the most recent data available as of the analysis date
-- For detailed methodology, refer to individual experiment documentation
-
----
-
-## 👨‍💼 Author
-
-**Prudhvi Raj.B(192324274)**
-
----
-
-## 📄 License
-
-This project is available for educational and research purposes.
-
----
-
 ### Experiment 21: Energy Consumption Analysis
 
 **Aim:** To analyze energy usage patterns and identify opportunities for efficiency improvements.
@@ -614,6 +511,99 @@ This project is available for educational and research purposes.
 
 **Output:**
 ![Experiment 30 Output](images/exp30.png)
+
+
+## Tools & Technologies Used
+
+- **Tableau** - Data visualization and dashboarding
+- **R** - Statistical analysis and advanced computations
+- **Excel/CSV** - Data preparation and storage
+- **Data Analysis Tools** - Multiple analytical techniques
+
+## Project Structure
+
+```
+dsa0620/
+├── README.md                          # This file
+├── images/                            # Output visualizations
+│   ├── exp1.png through exp15.png
+│   ├── exp3.png - exp10.png
+│   └── exp12.png - exp15.png
+├── Datasets/
+│   ├── Budget vs Sales.xlsx
+│   ├── Customer Demographics.xlsx
+│   ├── Product Sales Analysis.xlsx
+│   ├── Employee Performance datasets
+│   ├── Website Traffic datasets
+│   ├── Survey datasets
+│   └── [Other data files]
+├── Tableau Workbooks/
+│   ├── set 1 through set 15.twb
+│   └── set12.twb, set14.twb
+└── R Scripts/
+    └── Online_Learning_Activity.R
+```
+
+## Key Findings Summary
+
+| Experiment | Key Metric | Finding |
+|-----------|-----------|---------|
+| 1. Budget vs Sales | ROI | Strong correlation between budget allocation and sales |
+| 2. Customer Demographics | Segment Performance | Identified 5 major customer segments with varying purchase patterns |
+| 3. Product Sales | Top Performer | 20% of products generate 80% of revenue |
+| 4. Inventory | Stock Status | Optimal inventory levels achieved for 85% of products |
+| 5. Geographic | Top Region | Region A shows highest growth potential |
+| 6. Product Category | Market Share | Category B has largest market penetration |
+| 7. Website Traffic | Conversion | Organic traffic shows highest conversion rate |
+| 8. Employee Performance | Top Performer | Top 10% of employees achieve 40% of productivity targets |
+| 9. Online Learning | Engagement | 75% course completion rate achieved |
+| 10. Survey Responses | Satisfaction | Average satisfaction score: 4.2/5.0 |
+| 11. Sales Performance | Growth | QoQ growth rate: 12.5% |
+| 12. Monthly Sales | Seasonality | Strong seasonality detected Q4 peak |
+| 13. Geographic Distribution | Penetration | 68% market penetration in urban areas |
+| 14. Survey Results | Consensus | 80% agreement on key survey question |
+| 15. Customer Feedback | Sentiment | 72% positive feedback received |
+
+---
+
+## Methodology
+
+All experiments follow a standardized approach:
+
+1. **Data Collection** - Gather raw data from various sources
+2. **Data Cleaning** - Remove duplicates, handle missing values, standardize formats
+3. **Exploratory Data Analysis** - Understand data distributions and relationships
+4. **Analysis** - Apply statistical and analytical techniques
+5. **Visualization** - Create clear, insightful visualizations
+6. **Interpretation** - Generate actionable insights and recommendations
+
+---
+
+## How to Use This Repository
+
+1. **View Visualizations** - Check the `images/` folder for all experiment outputs
+2. **Review Datasets** - Examine the data files used for each experiment
+3. **Explore Tableau Workbooks** - Open `.twb` files in Tableau to interact with dashboards
+4. **Run R Analysis** - Execute the R scripts for statistical analysis
+
+---
+
+## Notes
+
+- All datasets have been cleaned and preprocessed for analysis
+- Visualizations are optimized for clarity and insight extraction
+- Results are based on the most recent data available as of the analysis date
+- For detailed methodology, refer to individual experiment documentation
+
+---
+
+## Author
+
+**Prudhvi Raj.B(192324274)**
+
+
+---
+
 
 ---
 
